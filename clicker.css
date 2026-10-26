@@ -1,14 +1,110 @@
-html {
-    font-family: 'Courier New', Courier, monospace;
-}
-
 body {
     background-color: #0F172A;
     margin: 0;
     padding: 0;
+    display: flex;
+    height: 100vh;  
+    font-family:'Poppins', sans-serif;
 }
 
 .logo {
-    display: block;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    width: 100%;
     color: #FBBF24;
+    font-family: 'Titan One', cursive;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main-area {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    align-items: center;
+    font-family:'Poppins', sans-serif;
+}
+
+.main-button {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-button button {
+    background-color: #FBBF24;
+    color: #0F172A;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px 0;
+    cursor: pointer;
+    width: 200px;
+    height: 120px;
+    border-radius: 35px;
+    font-size: 40px;
+    font-family:'Poppins', sans-serif;
+    line-height: 1;
+}
+
+.main-button button:hover {
+    background-color: #F59E0B;
+}
+
+.main-button button:active {
+    background-color: #B45309;
+    transform: scale(0.95);
+    transition: transform 0.1s ease-in-out;
+}
+
+.money-count {
+    color: #FBBF24;
+    position: relative; 
+    margin: 0;
+}
+
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 400px;
+    gap: 15px;
+    background: #17233f;
+    align-items: center;
+    border-radius: 60px;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    font-family:'Poppins', sans-serif;
+}
+
+.side-bar button {
+    background-color: #FBBF24;
+    color: #0F172A;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px 0;
+    cursor: pointer;
+    width: 150px;
+    height: 80px;
+    border-radius: 35px;
+    font-family:'Poppins', sans-serif;
+    line-height: 1;
+}
+
+.side-bar button:hover {
+    background-color: #F59E0B;
+}
+
+.side-bar button:active {
+    background-color: #B45309;
+    transform: scale(0.95);
+    transition: transform 0.1s ease-in-out;
 }

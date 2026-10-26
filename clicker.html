@@ -1,16 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset=""UTF-8>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Clicker.css">
     <title>Clicker Game</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Titan+One&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <div class="logo">
            <h1>Become a millionaire!</h1>
     </div>
- 
+
+    <div class="main-area">
+
+        <div class="main-button">
+            <button>Earn Money!</button>
+            <div id="money" class="money-count"> <p>money: 0$</p></div>
+        </div>
+
+        <div class="side-bar">
+            <button id="stocks" class="stocks">???</button>
+            <button id="crypto" class="crypto">???</button>
+            <button id="ponzi" class="ponzi">???</button>
+        </div>
+    </div>
+
+
+    <script src="clicker.js"></script>
 </body>
 </html>
